@@ -1,5 +1,5 @@
 # validate-value
-It is an npm package to validate if the value is null, empty or undefined.
+It is a simple class with a static function who Return a true if is validate or false if is not.
 
 
 <b>null</b> =  when  the value wass set to null 
@@ -11,3 +11,19 @@ It is an npm package to validate if the value is null, empty or undefined.
 <b>undefinid</b> =   when the values wass not defined y just wass declared '<i>var somevalue </i>' or when the value not exists
 
 
+# How to use it?
+```sh
+const object = require(validate-value).Validate;
+
+let varExample;
+
+if(object.value(varExample))
+{
+  console.log('im validate')
+}else{
+  //it inside heare
+  console.log('im not validate because im undefined')
+}
+
+
+```
