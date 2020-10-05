@@ -1,5 +1,5 @@
 # What is 'is-valid-value'?
-It is a simple class with a static function who Return a true if the value is not a empty,null or undefined and false if it is.
+It is a npm package that contains a simple class with a static function that Return a true if the value is not a empty,null or undefined and false if it is.
 
 
 <b>null</b> =  when  the value wass set to null 
