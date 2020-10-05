@@ -1,5 +1,5 @@
 {
-  "name": "validate-value",
+  "name": "is-validate",
   "version": "1.0.0",
   "description": " It is an npm package to validate if the value is null, empty or undefined",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeonelVelez/validate-value.git"
+    "url": "git+https://github.com/LeonelVelez/is-valid-value.git"
   },
   "keywords": [
     "validate",
@@ -18,7 +18,7 @@
   "author": "Leonel Velez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LeonelVelez/validate-value/issues"
+    "url": "https://github.com/LeonelVelez/is-valid-value/issues"
   },
-  "homepage": "https://github.com/LeonelVelez/validate-value#readme"
+  "homepage": "https://github.com/LeonelVelez/is-valid-value#readme"
 }
