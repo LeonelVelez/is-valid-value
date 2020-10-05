@@ -10,45 +10,5 @@ It is a simple class with a static function who Return a true if is validate or 
 
 <b>undefinid</b> =   when the values wass not defined y just wass declared '<i>var somevalue </i>' or when the value not exists
 
+
 # use 
-
-const objet = require('validate-value').Validate; 
-let varExamp = null;
-
-if(objet.value(varExamp))
-{
-  
-  console.log('is validate')
-}else{
-  //inside here 
-  console.log('is not validate')
-}
-  
-
-
-varExamp;
-
-if(objet.value(varExamp))
-{
-  
-  console.log('is validate')
-}else{
-  //inside here 
-  console.log('is not validate')
-}
-
-
-varExamp= ' ';
-
-if(objet.value(varExamp))
-{
-  
-  console.log('is validate')
-}else{
-  //inside here 
-  console.log('is not validate')
-}
-
-
-
-
