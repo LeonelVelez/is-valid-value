@@ -1,5 +1,5 @@
-# validate-value
-It is a simple class with a static function who Return a true if is validate or false if is not.
+# What is 'is-valid-value'?
+It is a simple class with a static function who Return a true if the value is not a empty,null or undefined and false if it is.
 
 
 <b>null</b> =  when  the value wass set to null 
@@ -13,7 +13,7 @@ It is a simple class with a static function who Return a true if is validate or 
 
 # How to use it?
 ```sh
-const object = require(validate-value).Validate;
+const object = require(is-valid-value).Validate;
 
 let varExample;
 
