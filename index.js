@@ -5,18 +5,18 @@ class Validate{
         if(vale === null)
         {
             ret = false;
-            console.warn(`the value ${vale} is null`)
+            console.warn(`the value is null`)
         }else{
             if(vale === undefined)
             {
                 ret = false;
-                console.warn(`the value ${vale} is undfined`)
+                console.warn(`the value is undfined`)
                 
-            }else{
-                if(vale.trim() === '')
+            }else{                
+                if(vale.toString().trim() === '')
                 {
                     ret = false;
-                    console.warn(`the value ${vale} is empty`)
+                    console.warn(`the value  is empty`)
                 }
             }
         }
@@ -24,5 +24,5 @@ class Validate{
     }
 }
 
-
+module.exports = {Validate};
 
