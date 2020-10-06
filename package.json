@@ -1,6 +1,6 @@
 {
   "name": "is-valid-value",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": " It is an npm package to validate if the value is null, empty or undefined",
   "main": "index.js",
   "scripts": {
